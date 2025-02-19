@@ -23,6 +23,9 @@ from .qlearning_family import QRDQN_Agent
 from .qlearning_family import PerDQN_Agent
 from .qlearning_family import DRQN_Agent
 
+'''Model-Based Reinforcement Learning Algorithm'''
+from .model_based_rl import DreamerV2_Agent
+
 '''Multi-Agent Reinforcement Learning Algorithms'''
 from .multi_agent_rl import IQL_Agents
 from .multi_agent_rl import VDN_Agents
