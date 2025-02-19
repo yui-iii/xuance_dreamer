@@ -84,6 +84,9 @@ def sample_batch(memory: Optional[Union[np.ndarray, dict]],
         return memory[index]
 
 
+class TransitionBuffer():
+    pass
+
 class Buffer(ABC):
     """
     Basic buffer single-agent DRL algorithms.
